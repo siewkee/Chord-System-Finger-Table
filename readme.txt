@@ -15,9 +15,9 @@ The main objectives are:
 • to demonstrate the concept of scalable algorithms and fast code.
 
 
-Terminal Compil
-g++ -o chord Chord.cpp
-./chord test_instructions.txt
+Terminal Commands:
+> g++ -o chord Chord.cpp
+> ./chord test_instructions.txt
 
 = "test_instructions.txt" can be replaced with file name
 = file must be in the same folder as .cpp and .h file
