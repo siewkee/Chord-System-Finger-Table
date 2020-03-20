@@ -16,8 +16,8 @@ The main objectives are:
 
 
 Terminal Commands:
-> g++ -o chord Chord.cpp
-> ./chord test_instructions.txt
+g++ -o chord Chord.cpp
+./chord test_instructions.txt
 
 = "test_instructions.txt" can be replaced with file name
 = file must be in the same folder as .cpp and .h file
