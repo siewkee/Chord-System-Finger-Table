@@ -1,0 +1,63 @@
+0>0
+0>0
+0>0
+0>0
+0>0
+0>7
+0>7
+0>7
+0>0
+0>0
+PEER 7 ADDED
+0>7
+0>7
+0>7
+0>7>0
+0>7>0
+...
+PEER 3 ADDED
+...
+PEER 3 REMOVED
+...
+PEER 12 ADDED
+...
+PEER 3 ADDED
+...
+PEER 9 ADDED
+...
+PEER 3 REMOVED
+...
+PEER 17 ADDED
+...
+Result of lookup to initialize entries of finger table of node 7
+Result of lookup to update entries of finger table of node 0
+Result of lookup to initialize finger table for node 3
+... = and so on (update finger table of node 0 and node 7)
+   INSERTED THIS IS A TEST (key=11) AT 12
+...
+INSERTED Siew Ke Hung (key=19) AT 0
+...
+INSERTED CSCI319 (key=1) AT 7
+...
+DATA AT INDEX NODE 12:
+THIS IS A TEST
+FINGER TABLE OF NODE 12:
+17 17 17 0 0
+...
+REMOVED THIS IS A TEST (key=11) FROM 12
+...
+DATA AT INDEX NODE 12:
+FINGER TABLE OF NODE 12:
+17 17 17 0 0
+...
+PEER 0 REMOVED
+...
+DATA AT INDEX NODE 7: Markus Hagenbuchner CSCI319
+FINGER TABLE OF NODE 7: 9 9 12 17 7
+...
+DATA AT INDEX NODE 9: FINGER TABLE OF NODE 9: 12 12 17 17 7
+...
+DATA AT NODE 12:
+FINGER TABLE OF NODE 12: 17 17 17 7 7
+...
+DATA AT INDEX NODE 17: FINGER TABLE OF NODE 17: 7 7 7 7 7
